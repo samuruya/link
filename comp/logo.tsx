@@ -1,6 +1,7 @@
 import { View, Text, Image, StyleSheet } from 'react-native'
 import React from 'react'
 
+// @ts-ignore
 const logo = ({large}) => {
   return (
 

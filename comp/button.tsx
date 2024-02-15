@@ -2,7 +2,7 @@ import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import React from 'react'
 import { Colors } from '../constants/colors'
 
-
+// @ts-ignore
 const Button = ({ text, onPress }) => {
   return (
     <TouchableOpacity onPress={onPress}>
